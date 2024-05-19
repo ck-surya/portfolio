@@ -1,8 +1,36 @@
-/* Existing CSS remains unchanged */
+/* Contact section styles */
 
-.contact-info,
-.social-media {
+#contact {
+    padding: 80px 0;
+    background-color: #f9f9f9;
     text-align: center;
+}
+
+i {
+    color: black;
+    /* background-color: black; */
+}
+
+.contact-info {
+    margin-bottom: 50px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.social-icons {
     margin-bottom: 30px;
 }
 
@@ -10,10 +38,52 @@
     display: inline-block;
     font-size: 2em;
     color: #007bff;
-    margin: 0 10px;
+    /* Change icon color */
+    margin: 0 15px;
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
     color: #0056b3;
+    /* Change icon color on hover */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
 }
