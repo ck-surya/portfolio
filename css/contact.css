@@ -1,0 +1,19 @@
+/* Existing CSS remains unchanged */
+
+.contact-info,
+.social-media {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    display: inline-block;
+    font-size: 2em;
+    color: #007bff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}

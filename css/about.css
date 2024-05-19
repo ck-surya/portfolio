@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.animated-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    animation: rotateIn 2.5s ease-in-out;
+}
+
+.bio {
+    max-width: 600px;
+    text-align: center;
+}
+
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 10px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.skills,
+.experience {
+    margin-top: 30px;
+}
+
+.skills h2,
+.experience h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.skills ul,
+.experience ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills li,
+.experience li {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-360deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .animated-title {
+        font-size: 2.5em;
+    }
+
+    .bio p {
+        font-size: 1em;
+    }
+
+    .skills h2,
+    .experience h2 {
+        font-size: 1.5em;
+    }
+
+    .skills li,
+    .experience li {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .animated-title {
+        font-size: 2em;
+    }
+
+    .bio p {
+        font-size: 0.9em;
+    }
+
+    .skills h2,
+    .experience h2 {
+        font-size: 1.2em;
+    }
+
+    .skills li,
+    .experience li {
+        font-size: 0.9em;
+    }
+}

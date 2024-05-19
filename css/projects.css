@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#projects {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.animated-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    height: 300px;
+    /* Set a fixed height for project cards */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-info p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-info .btn:hover {
+    background-color: #555;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .project-info {
+        padding: 15px;
+    }
+
+    .project-info h2 {
+        font-size: 1.2em;
+    }
+
+    .project-info p {
+        font-size: 0.9em;
+    }
+
+    .project-info .btn {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+}
+
+
+/* Existing CSS styles remain unchanged */
+
+
+.project-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project-links .btn {
+    margin: 0 10px;
+}
+
+.project-links .demo-btn {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.project-links .code-btn {
+    background-color: #008CBA;
+    /* Blue */
+}
+
+/* Responsive Styles remain unchanged */
