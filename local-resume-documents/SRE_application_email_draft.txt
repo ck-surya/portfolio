@@ -1,0 +1,22 @@
+To: kanishka@hrhai.com
+Subject: Application for Site Reliability Engineer - Chhotu Kumar
+Attachment: Chhotu_Kumar_SRE_Resume_Oct_2026.pdf
+
+Dear Kanishka,
+
+I am applying for the Site Reliability Engineer role in Gurgaon, Sector 18. I am based in Gurugram and have over four years of software development experience, including hands-on work in infrastructure automation and service operations.
+
+At Justuju, I have built and containerized services for contest operations, automated Ubuntu provisioning and repeatable deployments using Bash and Ansible, and supported Linux troubleshooting and monitoring workflows. I also used rclone to migrate CCL media uploads from Hetzner to AWS storage. My other work includes Firebase phone verification and notifications.
+
+My DOMjudge deployment project includes Docker Compose service configuration, provisioning and diagnostic scripts, and Prometheus/Grafana configuration:
+https://github.com/ck-surya/domjudge-docker-setup
+
+Portfolio: https://ck-surya.github.io/portfolio/
+GitHub: https://github.com/ck-surya
+
+I have attached my updated resume. I would welcome the opportunity to discuss how my automation and operations experience could support your SRE team, including the UK shift requirements.
+
+Regards,
+Chhotu Kumar
++91 73196 40608
+chhotu22@navgurukul.org
